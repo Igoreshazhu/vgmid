@@ -392,6 +392,22 @@ void identifyfile(char *name, char *fullname)
 	!checkname(name, "gbr") &&
 	/* GBA extensions */
 	!checkname(name, "gba") &&
+	/* N64 extensions */
+	!checkname(name, "ndd") &&
+	!checkname(name, "n64") &&
+	!checkname(name, "v64") &&
+	!checkname(name, "z64") &&
+	/* NDS extensions */
+	!checkname(name, "nds") &&
+	/* NGP/NGPC extensions */
+	!checkname(name, "ngp") &&
+	!checkname(name, "ngc") &&
+	/* Lynx extensions */
+	!checkname(name, "lnx") &&
+	!checkname(name, "lyx") &&
+	/* Jaguar extensions */
+	!checkname(name, "jag") &&
+	!checkname(name, "j64") &&
 	/* SMS/GG extensions */
 	!checkname(name, "sms") &&
 	!checkname(name, "gg") &&

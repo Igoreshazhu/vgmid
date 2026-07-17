@@ -421,11 +421,13 @@ void identifyfile(char *name, char *fullname)
 	!checkname(name, "32x") &&
 	/* PCE extensions */
 	!checkname(name, "pce") &&
+	!checkname(name, "hes") &&
 	/* VB extensions */
 	!checkname(name, "vb") &&
 	/* WS/WSC extensions */
 	!checkname(name, "ws") &&
 	!checkname(name, "wsc") &&
+	!checkname(name, "wsr") &&
 	/* ISO extensions */
 	!checkname(name, "iso")) return;
   }
